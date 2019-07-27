@@ -3,6 +3,7 @@ import React from 'react';
 // import Button from 'react-bootstrap/Button';
 import './App.css';
 import Httpcomp from './Httpcomp';
+import Hookcomp from './Hookcomp';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Friend name='Gunja' job='SADD' salary='38000' gender='male'/>
       <Friend name='Barma' job='ADD' salary='28000' gender='male'/>
       <Friend name='Soumya' job='SE' salary='45000' gender='male'/>
-      <Friend name='Mettela' job='SME' salary='30000' gender='male'/> */}
-<Httpcomp />
+      <Friend name='Mettela' job='SME' salary='30000' gender='male'/> 
+<Httpcomp />*/}
+<Hookcomp/>
     </div>
   );
 }
